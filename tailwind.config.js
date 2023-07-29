@@ -23,6 +23,9 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      boxShadow: {
+        boxShadowstyled: "0px -3px 22px 0px rgba(0, 0, 0, 0.35)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
